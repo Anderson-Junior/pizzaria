@@ -41,3 +41,10 @@ $('div#testemunha-esquerda').click( function() {
     $('div#testemunha-direita ion-icon').css('opacity',1);
     $('div#testemunha-direita ion-icon').css('cursor','pointer');      
 })
+
+
+//códigos de clique apra assinar
+
+$('div.planos-bottom').click(function(){
+    alert("Você clicou em QUERO ASSINAR");
+})
