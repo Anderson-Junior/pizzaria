@@ -48,3 +48,18 @@ $('div#testemunha-esquerda').click( function() {
 $('div.planos-bottom').click(function(){
     alert("Você clicou em QUERO ASSINAR");
 })
+
+// links das redes sociais
+
+$("ion-icon#instagram").click(function(){
+    window.open("http://instagram.com","_blank");
+})
+$("ion-icon#facebook").click(function(){
+    window.open("http://facebook.com","_blank");
+})
+$("ion-icon#twitter").click(function(){
+    window.open("http://twitter.com","_blank");
+})
+$("ion-icon#youtube").click(function(){
+    window.open("http://youtube.com","_blank");
+})
