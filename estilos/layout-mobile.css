@@ -1,0 +1,23 @@
+/*TIPOGRAFIA*/
+header div#chamada h1 {
+    font-size: 350%;
+}
+header div#chamada h4 {
+    font-size: 200%;
+    margin-bottom: 25px;
+}
+header div#chamada a {
+    
+}
+
+h2 {
+    font-size: 250%;
+}
+
+div#pontos-chaves-mestre {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: space-between;
+}

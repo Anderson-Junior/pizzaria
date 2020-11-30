@@ -1,30 +1,34 @@
-/*ANIMACAO DO TITULO*/
+/* animacao do titulo */
 
 @keyframes HeaderH1-moverParaDireita {
-    0%{
+    0% {
         opacity: 0;
         transform: translateX(-75px);
     }
-    70%{
-        transform: translateX(20px);
+
+    70% {
+        transform: translateX(10px); 
     }
-    100%{
+
+    100% {
         opacity: 1;
-        transform: translate(0);
+        transform: translateX(0);
     }
 }
 
 @keyframes HeaderH4-moverParaEsquerda {
-    0%{
+    0% {
         opacity: 0;
         transform: translateX(50px);
     }
-    70%{
-        transform: translateX(-5px);
+
+    50% {
+        transform: translateX(-5px); 
     }
-    100%{
+
+    100% {
         opacity: 1;
-        transform: translate(0);
+        transform: translateX(0);
     }
 
 }
@@ -32,11 +36,13 @@
 @keyframes HeaderA-moverParaCima {
     0% {
         opacity: 0;
-        transform: translateY(30px);
+        transform:translateY(30px);
     }
 
-    100%{
+    100% {
         opacity: 1;
-        transform: translateY(0);
+        transform:translateY(0);
     }
+
+
 }

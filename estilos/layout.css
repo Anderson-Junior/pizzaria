@@ -42,8 +42,18 @@ header {
 nav {
     width:95%;
     height: 150px;
-    position: fixed; top:0; left:2.5%; z-index:9999
+    position: fixed; top:0; left:2.5%; z-index:9999;
 }
+
+.navEstatico {
+    width:100%;
+    height: 55px;
+    background-color:rgba(247,247,247,0.98);
+    left:0;
+    box-shadow: 0 1px 10px #333;
+    transition-duration: 0.8s;
+}
+
 nav div {
     float:left;
     background-image: url(../_imagens/secao08-logo-pizzaria-fontenelle.png);
@@ -54,12 +64,28 @@ nav div {
     cursor:pointer;
 }
 
+.logoEstatico {
+    height: 55px;
+    margin-left:50px;
+    width: 75px;
+    background-color:#065902    ;
+    transition-duration: 0.8s;
+}
+
+.logoEstatico:hover {
+    background-color: #078C31;
+}
+
 nav ul {
     display: flex;
     flex-flow: row wrap;
     justify-content: left;
 
     margin-top:70px;
+}
+
+.menuEstatico {
+    margin-top:15px;
 }
 
 nav ul#esquerda {
@@ -83,6 +109,13 @@ nav ul li a {
     font-size:80%;
 }
 
+.itensEstatico {
+    color:#404040;
+    padding:19px 30px;
+    border-radius: 0;
+}
+
+
 nav ul li a#criar-conta {
     border:1px solid #FFF;
     padding:9px 29px;
@@ -90,7 +123,7 @@ nav ul li a#criar-conta {
 
 nav ul li a:hover {
     background-color: #F2B705;
-    transition-duration: 0.8s;
+    transition-duration: 1s;
 }
 
 nav ion-icon {
@@ -101,6 +134,12 @@ nav ion-icon {
     margin-top:-10px;
     margin-left:20px;
 }
+
+.iconeEstatico {
+    color:#404040;
+    margin-right: 25px;
+}
+
 
 nav ion-icon:hover {
     color:#F2B705;
