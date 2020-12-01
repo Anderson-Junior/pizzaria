@@ -42,14 +42,14 @@ header {
 nav {
     width:95%;
     height: 150px;
-    position: fixed; top:0; left:2.5%; z-index:9999;
+    position: fixed; top:0; left:2.5%; z-index:9999
 }
 
 .navEstatico {
-    width:100%;
+    width: 100%;
     height: 55px;
-    background-color:rgba(247,247,247,0.98);
     left:0;
+    background-color: rgba(247, 247, 247, 0.98);
     box-shadow: 0 1px 10px #333;
     transition-duration: 0.8s;
 }
@@ -66,14 +66,14 @@ nav div {
 
 .logoEstatico {
     height: 55px;
-    margin-left:50px;
     width: 75px;
-    background-color:#065902    ;
+    margin-left:0;
+    background-color: #065902;
     transition-duration: 0.8s;
 }
 
 .logoEstatico:hover {
-    background-color: #078C31;
+    background-color:#078C31;
 }
 
 nav ul {
@@ -92,6 +92,11 @@ nav ul#esquerda {
     float:left;
 }
 
+nav ul#icone-menu-mobile {
+    float: right;
+    display: none;
+}
+
 nav ul#direita {
     float: right;
 }
@@ -103,18 +108,17 @@ nav ul li {
 nav ul li a {
     color:white;
     text-decoration:none;
-    padding:10px 30px;
+    padding:10px 20px;
     border-radius: 100px;
 
     font-size:80%;
 }
 
-.itensEstatico {
+.itemEstatico {
     color:#404040;
-    padding:19px 30px;
     border-radius: 0;
+    padding:19px 30px;
 }
-
 
 nav ul li a#criar-conta {
     border:1px solid #FFF;
@@ -123,7 +127,7 @@ nav ul li a#criar-conta {
 
 nav ul li a:hover {
     background-color: #F2B705;
-    transition-duration: 1s;
+    transition-duration: 0.8s;
 }
 
 nav ion-icon {
@@ -137,9 +141,8 @@ nav ion-icon {
 
 .iconeEstatico {
     color:#404040;
-    margin-right: 25px;
+    margin-right: 15px;
 }
-
 
 nav ion-icon:hover {
     color:#F2B705;
@@ -467,7 +470,7 @@ div.planos {
 }
 
 div.planos-top {
-    width:250px;
+    width:100%;
     height: 350px;
     background-color: #F7F7F7;
     border-top-left-radius: 20px;
@@ -478,7 +481,7 @@ div.planos-top {
 }
 
 div.planos-bottom {
-    width: 250px;
+    width:100%;
     height: 100px;
     background-color: #078C31 ;
     border-bottom-left-radius: 20px;
